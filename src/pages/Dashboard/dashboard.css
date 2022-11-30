@@ -1,0 +1,42 @@
+.home{
+    display: flex;
+    width: 100%;
+}
+.home .homeContainer{
+    background-color: #fff;
+    flex: 5;
+}   
+.homeContainer .widgets{
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+}
+.charts{
+    display: flex;
+    gap: 2rem;
+    padding: 0px 30px;
+}
+.charts .bar{
+    flex: 2;
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    padding: 20px 0px;
+}
+.charts .pie{
+    flex: 1;
+}
+
+.listContainer{
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+}
+.listContainer .listTitle{
+    font-size: 17px;
+    font-weight: 600;
+}
+.listContainer span{
+    font-size: 13px;
+    color: var(--textColor);
+}

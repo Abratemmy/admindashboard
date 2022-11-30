@@ -1,0 +1,37 @@
+.cellWrapper{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.cellWrapper  img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.tablecellWithStatus{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.tablecellWithStatus.Approved{
+    color: var(--greenColor);
+    background: rgba(70, 150, 70, 0.192);
+}
+.tablecellWithStatus.Pending{
+    color: goldenrod ;
+    background: rgba(218, 210, 104, 0.178);
+}
+.tablecellWithStatus.Declined{
+    color: crimson;
+    background: rgba(128, 76, 83, 0.226);
+}
+.table .title{
+    color:rgb(114, 111, 111)!important;
+}
+.tabletext{
+    color: var(--blackColor);
+    font-weight: 600;
+    font-size: 13px;
+}
+.tableamount{
+    color:rgba(20, 201, 20, 0.788)!important;
+}

@@ -1,0 +1,52 @@
+.piecontainer{
+    border: 1px solid var(--line);
+    border-radius: 15px;
+    padding: 20px;
+}
+.piecontainer .top{
+    display: flex;
+    justify-content: space-between;
+}
+.piecontainer .top p{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--blackColor)
+}
+.piecontainer .top p span{
+    font-size: 14px;
+    font-weight: normal;
+    color: var(--textColor);
+    display: block;
+}
+
+.colorcontainer{
+    margin:20px 0px 0px
+}
+.colorcontainer .color{
+    display: flex;
+    justify-content: space-between;
+}
+.colorcontainer .colorcode{
+    display: flex;
+    gap:1rem;
+}
+.colorcontainer .colorcode span{
+    width:13px;
+    height:13px;
+    border-radius: 50%;
+    background-color: var(--greenColor);
+
+}
+.colorcontainer .colorcode .color2{
+    background-color: var(--blue);
+}
+.colorcontainer .colorcode .color3{
+    background-color: #FFBB28;
+}
+.colorcontainer .colorcode .color4{
+    background-color: #FF8042;
+}
+.colorcontainer .colorcode p{
+    font-weight: 600;
+    font-size: 14px;
+}

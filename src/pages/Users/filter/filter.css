@@ -1,0 +1,74 @@
+.filterpage{
+    display: flex;
+    gap: 10rem;
+    margin: 20px 0px;
+    background-color: rgba(228, 224, 224, 0.199);
+    padding: 20px
+}
+.filterpage .left{
+    flex: 3;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.filterpage .right{
+    flex: 1;
+    align-items: left;
+}
+
+.filterpage .filter-content{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.filterSelect{
+    position: relative;
+    
+}
+.filtersearch{
+    flex: 2;
+    display: flex;align-items: center;
+}
+.filterSelect .input{
+    border: 1px solid var(--line);
+    height: 40px;
+    border-radius: 5px;
+    width: 80%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0 ;
+    border-left: 0;
+}
+.filterSelect .input:focus{
+    outline: none;
+    border: 1px solid var(--line);
+}
+.filtersearch span{
+  height: 42px;
+  border: 1px solid var(--line);
+  align-items: center;
+  background-color: #fff;
+  border-right: 0;
+}
+.filtersearch .icon1{
+    padding-top: 10px;
+}
+.filterSelect select{
+    height: 40px;
+    border: 1px solid var(--line);
+    color: var(--textColor);
+    border-radius: 5px;
+}
+.filterSelect select:focus{
+    outline: none;
+    border: 1px solid var(--line);
+}
+.filterpage .generatepost{
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 8px 14px;
+    cursor: pointer;
+    width: fit-content;
+    align-items: right;
+    text-align: right;
+    color: var(--textColor)
+}

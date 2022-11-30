@@ -1,0 +1,42 @@
+.datatable{
+    height: 650px;
+    padding: 30px 0px;
+}
+.datatable .cellWithImg {
+    display: flex;
+    align-items: center;    
+}
+.datatable .cellWithImg .cellImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.datatable .cellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+}
+.datatable .cellWithStatus.Approved{
+    color: rgba(20, 201, 20, 0.788);
+    background: rgba(70, 150, 70, 0.192);
+}
+.datatable .cellWithStatus.Update{
+    color: rgb(35, 35, 151) ;
+    background: rgba(55, 79, 122, 0.178);
+}
+.table-action{
+    border: 1px solid var(--line);
+    background: transparent;
+    font-size: 11px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--blackColor)
+}
+.table-action:hover{
+    color: var(--line)
+}

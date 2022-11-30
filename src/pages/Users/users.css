@@ -1,0 +1,52 @@
+.user{
+    display: flex;
+    width: 100%
+}
+.userContainer{
+    flex: 5;
+}
+.userpage{
+    margin: 20px;
+}
+.userpage .title{
+    color: var(--blackColor);
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+.userpage p{
+    color: var(--textColor);
+    font-size:15px;
+    padding-bottom: 20px;
+}
+.bloc-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--line);
+}
+.tabs {
+    padding: 15px 0px 15px 0;
+    margin-right: 30px;
+    background: var(--backgroundColor);
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    transition: 0.4s all ease;
+    color: var(--textColor);
+    font-size: 15px;
+    text-transform:capitalize;
+    font-weight: 600
+}
+.active-tabs  {
+    color: var(--lightblue);
+    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid var(--lightblue);
+}
+
+.content {
+    width: 100%;
+    display: none;
+}
+    
+.active-content {
+    display: block;
+}

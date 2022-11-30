@@ -1,0 +1,132 @@
+.single{
+    display: flex;width: 100%;
+}
+.singleContainer{
+    flex: 5;
+    
+}
+.singleContainer .top {
+    border: 1px solid var(--line);
+    margin:30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.singleContainer .upper{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.singleContainer .upper img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.singleContainer .upper .left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.singleContainer .upper p{
+    color: var(--blackColor);
+    font-weight: 600;
+    font-size: 18px;
+}
+.singleContainer .upper .left span{
+    color: var(--lightblue);
+    font-size: 15px;
+    font-weight: 600
+}
+.singleContainer .upper .right{
+    display: flex;
+    flex-direction: column;
+}
+.singleContainer .right .navlink{
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+.singleContainer .right button{
+    padding:0!important;
+    border: 1px solid var(--line);
+    color: var(--lightblue);
+    height: 40px;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px 0px;
+    width: 70%;
+    align-items: right;
+}
+
+.singleContainer .middle{
+    margin: 30px 0px;
+}
+.singleContainer .middle .singledisplay{
+    border: 1px solid var(--line);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.singleContainer .singledisplay .icon{
+    font-size: 20px;
+    color: var(--lightblue)
+}
+.singleContainer .singledisplay .title{
+    font-size: 16px;
+    color: var(--textColor);
+    font-weight:600
+}
+.singleContainer .singledisplay .text{
+    color: var(--blackColor);
+    font-weight: 600;
+    font-size: 16px
+}
+
+.singleContainer .bottom{
+    border: 1px solid var(--line);
+    margin:30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+/* css for settings input form */
+.settings{
+    padding: 30px 0px
+}
+.settings .fieldinput-container{
+    padding-bottom: 20px;
+}
+.settings label{
+    font-size: 16px;
+    color: var(--blackColor);
+    padding-bottom: 5px;
+}
+.settings .input{
+    width: 100%;
+    height: 60px;
+    border: 1px solid var(--greenColor);
+    outline:none;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+.settings .input:focus{
+    outline: none;
+  
+}
+.settings .fieldinput{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    
+}
+.settings .fieldinput .icon{
+    position: absolute;
+    left: 5px;
+    top:30%;
+    font-size: 20px;
+    color: var(--textColor);
+    display: block;
+}

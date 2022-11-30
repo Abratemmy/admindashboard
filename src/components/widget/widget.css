@@ -1,0 +1,44 @@
+.widget{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+}
+.widget .right .title{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    padding-bottom: 7px;
+}
+.widget .right .number{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+.widget .right .text{
+    color: rgb(54, 54, 54);
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.widget .right .lost{
+    color: crimson
+}
+.widget .right span{
+    padding-left: 10px;
+}
+.widget .right .green{
+    color: rgb(26, 180, 103);
+}
+.widget .right{
+    flex: 1.4;
+}
+.widget .left{
+    flex: 1;
+    align-items: center;
+}
+.widget .left .progressbar{
+    width: 100px;
+    height: 100px;
+}
